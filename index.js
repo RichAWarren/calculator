@@ -1,7 +1,7 @@
 function readBox() {
 	// Take input values
-	var num1Val = document.getElementById('num1').value;
-	var num2Val = document.getElementById('num2').value;
+	var num1Val = Number(document.getElementById('num1').value);
+	var num2Val = Number(document.getElementById('num2').value);
   var operator = document.getElementById('operator').value.toString();
 
   var answer = 0
