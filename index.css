@@ -1,5 +1,13 @@
+.darkSwitch {
+  background: #808080;
+}
+.lightSwitch {
+  background: #D93600;
+}
+
 body {
-    background-color: #cd6600;
+    background-color: #D93600;
+    color: black;
 }
 
 .page-header {
@@ -29,4 +37,8 @@ select[type="text"] {
 
 button[type="button"] {
    width:168px;
+}
+
+input[type="button"] {
+   width:50px;
 }
