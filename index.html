@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculator by RichAWarren</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Calculator</h1>
+      <h2 class="project-tagline">A basic two number calculator</h2>
+    </section>
+
+    <section class="main-content">
+		<div>
+		<p id="demo">Select two numbers and the operator,<br> Then click calculate to find the answer</p>
+		<form>
+			<input type="number" placeholder='0' id="num1">
+			<input type="number" placeholder='0' id="num2">
+      <select type="text" id="operator" onChange="readBox()">
+        <option value="add">Add</option>
+        <option value="subtract">Subtract</option>
+        <option value="multiply">Multiply</option>
+        <option value="divide">Divide</option>
+      </select><br>
+			<button type="button" id='calculate' onClick="readBox()">CALCULATE</button>
+		</form>
+		</div>
+    </section>
+	<script src = "index.js"></script>
+  </body>
+</html>
