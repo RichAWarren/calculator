@@ -12,9 +12,21 @@ body {
 
 #buttons {
   margin: auto;
-  width: 10%;
+  width: 168px;
 }
 
 * {
   font-family: "Trebuchet MS";
+}
+
+input[type="number"] {
+   width:50px;
+}
+
+select[type="text"] {
+   width:50px;
+}
+
+button[type="button"] {
+   width:168px;
 }
